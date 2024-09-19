@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.login-form {
+    flex: 1;
+    padding: 40px;
+}
+
+.login-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.login-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.login-btn {
+    padding: 10px 0;
+    background-color: #2b00ff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #00b35f;
+}
+
+.advertisement {
+    flex: 1;
+    background-color: #eaeaea;
+}
+
+.advertisement img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.home-link-body {
+    margin-bottom: 10px; /* Cách đều phía dưới nếu cần */
+    text-align: left; /* Đảm bảo liên kết nằm bên trái */
+}
+
+.home-link-body a {
+    text-decoration: none;
+    font-size: 8px; /* Kích thước chữ nhỏ */
+    color: #007bff;
+    font-weight: bold;
+}
+
+.home-link-body a:hover {
+    color: #0056b3; /* Màu khi hover */
+}
